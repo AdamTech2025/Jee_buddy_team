@@ -30,3 +30,8 @@ coverage/
 
 # vercel
 .vercel
+
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+.ebextensions/*.config
